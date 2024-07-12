@@ -16,25 +16,27 @@ Screenshot:
 
 1. Download a nerd font
 
-   - download from https://www.nerdfonts.com/font-downloads
-   - or use Scoop
+   - use Scoop
 
    ```powershell
    scoop bucket add nerd-fonts
    sudo scoop install nerd-fonts/Cascadia-Code -g
    ```
+
+   - or download from https://www.nerdfonts.com/font-downloads
+
 2. Change terminal font family to nerd font
 3. Install this module
 
-   - use PowerShellGet:
+   - use Scoop
+   ```powershell
+   scoop install https://raw.githubusercontent.com/waingt/Swift-Powershell-File-Icon/main/Swift-Powershell-File-Icon.json
+   ```
+
+   - or use PowerShellGet:
 
    ```powershell
    Install-Module Swift-Powershell-File-Icon -SkipPublisherCheck
-   ```
-
-   - or use Scoop
-   ```powershell
-   # TODO
    ```
 
 4. Add startup code in powershell profile
