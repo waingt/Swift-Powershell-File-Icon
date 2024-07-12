@@ -29,7 +29,7 @@ Screenshot:
    - use PowerShellGet:
 
    ```powershell
-   Install-Module Swift-Powershell-File-Icon
+   Install-Module Swift-Powershell-File-Icon -SkipPublisherCheck
    ```
 
    - or use Scoop
@@ -59,5 +59,6 @@ Our goal is to reduce loading time to less than 100 milliseconds, for which them
 
 ### [Seti theme](https://github.com/jesseweed/seti-ui)
 
-seti-mapping.psd1 is modified from https://github.com/jesseweed/seti-ui/blob/master/styles/components/icons/mapping.less
-seti-ui.psd1 is modified from https://github.com/jesseweed/seti-ui/blob/master/styles/ui-variables.less
+- seti-mapping.psd1 is modified from https://github.com/jesseweed/seti-ui/blob/master/styles/components/icons/mapping.less
+
+- seti-ui.psd1 is modified from https://github.com/jesseweed/seti-ui/blob/master/styles/ui-variables.less

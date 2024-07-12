@@ -1,0 +1,24 @@
+{
+    "version": "1.0.1",
+    "description": "A PowerShell module for adding colorful icons when displaying file and folder names, while avoiding long loading times!",
+    "homepage": "https://github.com/waingt/Swift-Powershell-File-Icon",
+    "license": "MIT",
+    "notes": [
+        "Use the module by running: 'Import-Module Swift-Powershell-File-Icon'",
+        "Add it to your $PROFILE to make it permanent",
+        "A Nerd Font is required for this module to work"
+    ],
+    "url": "https://psg-prod-eastus.azureedge.net/packages/swift-powershell-file-icon.1.0.1.nupkg",
+    "hash": "be264096395d2b320622399684fc06553c3fafb5860ab89092c4dfd64989a89b",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "psmodule": {
+        "name": "Swift-Powershell-File-Icon"
+    },
+    "checkver": {
+        "url": "https://www.powershellgallery.com/packages/Swift-Powershell-File-Icon",
+        "regex": "<h2>([\\d.]+)</h2>"
+    },
+    "autoupdate": {
+        "url": "https://psg-prod-eastus.azureedge.net/packages/swift-powershell-file-icon.$version.nupkg"
+    }
+}
